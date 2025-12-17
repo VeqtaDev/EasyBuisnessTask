@@ -91,7 +91,7 @@ export default function Tasks() {
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-4">
           <img 
-            src="/logo.png" 
+            src={`${import.meta.env.BASE_URL}logo.png`} 
             alt="EBT Logo" 
             className="w-12 h-12 object-contain"
           />

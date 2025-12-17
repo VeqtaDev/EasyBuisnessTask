@@ -39,7 +39,7 @@ export default function Signup() {
         <div className="bg-ebt-gray rounded-2xl p-8 shadow-2xl">
           <div className="text-center mb-8">
             <img 
-              src="/logo.png" 
+              src={`${import.meta.env.BASE_URL}logo.png`}
               alt="EBT Logo" 
               className="w-20 h-20 mx-auto mb-4 object-contain"
             />

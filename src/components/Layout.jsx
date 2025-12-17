@@ -28,7 +28,7 @@ export default function Layout() {
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center gap-3 mr-4">
               <img 
-                src="/logo.png" 
+                src={`${import.meta.env.BASE_URL}logo.png`}
                 alt="EBT Logo" 
                 className="h-10 w-10 object-contain"
               />

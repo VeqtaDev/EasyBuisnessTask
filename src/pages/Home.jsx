@@ -47,7 +47,7 @@ export default function Home() {
         className="text-center mb-8"
       >
         <img 
-          src="/logo.png" 
+          src={`${import.meta.env.BASE_URL}logo.png`}
           alt="EBT Logo" 
           className="w-24 h-24 mx-auto mb-4 object-contain"
         />

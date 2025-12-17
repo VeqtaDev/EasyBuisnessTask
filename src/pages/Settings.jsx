@@ -85,7 +85,7 @@ export default function Settings() {
     <div className="p-6 space-y-6">
       <div className="flex items-center gap-4 mb-6">
         <img 
-          src="/logo.png" 
+          src={`${import.meta.env.BASE_URL}logo.png`} 
           alt="EBT Logo" 
           className="w-12 h-12 object-contain"
         />
