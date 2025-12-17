@@ -7,6 +7,11 @@ export default defineConfig({
     port: 3000
   },
   // Base path pour GitHub Pages - correspond au nom du repository
-  base: process.env.NODE_ENV === 'production' ? '/EasyBuisnessTask/' : '/',
+  // Utilise HashRouter donc le base path n'est pas critique, mais on le garde pour les assets
+  base: '/EasyBuisnessTask/',
+  build: {
+    outDir: 'dist',
+    assetsDir: 'assets',
+  },
 })
 
